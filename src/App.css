@@ -1,0 +1,111 @@
+/* App-level layout styling */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page sections */
+.page {
+  flex: 1;
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Headings */
+.page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Text */
+.page p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cbd5f5;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #38bdf8;
+  color: #020617;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* Project cards */
+.project-card {
+  background: #020617;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+}
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.7rem 0;
+}
+
+.tech {
+  background: #1e293b;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+.education-card {
+  background: #020617;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.education-card h3 {
+  margin-bottom: 0.5rem;
+  color: #38bdf8;
+}
+
+.education-card p {
+  margin: 0.2rem 0;
+  color: #cbd5f5;
+}
+.list {
+  margin-top: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+.list li {
+  margin: 0.4rem 0;
+  color: #cbd5f5;
+}
+
+.skills p {
+  margin: 0.4rem 0;
+  color: #cbd5f5;
+}

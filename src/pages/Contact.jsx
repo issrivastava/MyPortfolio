@@ -3,45 +3,53 @@ export default function Contact() {
     <section className="page">
       <h2>Contact Me</h2>
 
-      <p>
-        <strong>Email:</strong>{" "}
-        <a href="mailto:sagarikasrivastava46@gmail.com">
-          sagarikasrivastava46@gmail.com
-        </a>
-      </p>
+      <div className="card">
+        <p>
+          <strong>Email</strong><br />
+          <a href="mailto:sagarikasrivastava46@gmail.com">
+            sagarikasrivastava46@gmail.com
+          </a>
+        </p>
+      </div>
 
-      <p>
-        <strong>GitHub:</strong>{" "}
-        <a
-          href="https://github.com/issrivastava"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github.com/issrivastava
-        </a>
-      </p>
+      <div className="card">
+        <p>
+          <strong>GitHub</strong><br />
+          <a
+            href="https://github.com/issrivastava"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/issrivastava
+          </a>
+        </p>
+      </div>
 
-      <p>
-        <strong>LinkedIn:</strong>{" "}
-        <a
-          href="https://www.linkedin.com/in/issrivastava46/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin.com/in/issrivastava46
-        </a>
-      </p>
+      <div className="card">
+        <p>
+          <strong>LinkedIn</strong><br />
+          <a
+            href="https://www.linkedin.com/in/issrivastava46/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/issrivastava46
+          </a>
+        </p>
+      </div>
 
-      <p>
-        <strong>Quora:</strong>{" "}
-        <a
-          href="https://www.quora.com/profile/Sagarika-Srivastava-19"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          quora.com/profile/Sagarika-Srivastava-19
-        </a>
-      </p>
+      <div className="card">
+        <p>
+          <strong>Quora</strong><br />
+          <a
+            href="https://www.quora.com/profile/Sagarika-Srivastava-19"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            quora.com/profile/Sagarika-Srivastava-19
+          </a>
+        </p>
+      </div>
     </section>
   );
 }
